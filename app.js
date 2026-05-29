@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js App FFFinal Checkk!');
+  res.send('Hello from Node.js App FFFinal Checkk Pipeline!');
 });
 
 app.get('/about', (req, res) => {
